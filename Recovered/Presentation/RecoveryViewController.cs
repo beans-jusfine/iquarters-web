@@ -236,8 +236,8 @@ public sealed partial class GameViewController : UIViewController
         int flags=session.UpdateShotCount(multiplier);
         bool ended=(flags&session.flagPlayerGameOver)!=0,allEnded=(flags&session.flagGameOver)!=0;
         bool outOfCoins=(flags&session.flagOutOfShotsReason)!=0;
-        bool completedRound=multiplier>0&&flags!=0;
-        if(completedRound){GameStorage.RecordRound(oldRound,roundScore,player.playerName);GameStorage.Unlocked=Math.Max(GameStorage.Unlocked,Math.Min(12,oldRound+1));}
+        bool completedRound=multiplier>0&&(flags&session.flagRoundChange)!=0;
+        if(completedRound){GameStorage.RecordRound(oldRound,roundScore,player.playerName);GameStorage.Unlocked=Math.Max(GameStorage.Unlocked,Math.Min(12,oldRound+2));}
         if(ended&&!outOfCoins)session.AddPlayerScore(player.shotsLeft*5,oldPlayer);
         if(ended&&player.recoveredScoreId=="")player.recoveredScoreId=GameStorage.AddScore(player.playerName,player.score);
         if(allEnded)GameStorage.ClearSaved();else GameStorage.Save(session);

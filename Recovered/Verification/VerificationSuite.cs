@@ -12,10 +12,13 @@ Check(single.GetCurrentShotsLeft() == 39 && single.curRound == 0, "Miss consumes
 for (int i = 0; i < 3; i++) single.UpdateShotCount(1);
 Check(single.curRound == 1 && single.GetCurrentShotsLeft() == 39, "Three successes advance round without consuming reserve");
 var multi = new GameSession(2);
-for (int i = 0; i < 3; i++) multi.UpdateShotCount(1);
+int multiplayerFlags = 0;
+for (int i = 0; i < 3; i++) multiplayerFlags = multi.UpdateShotCount(1);
 Check(multi.curPlayer == 1 && multi.curRound == 0, "Second player gets same round");
-for (int i = 0; i < 3; i++) multi.UpdateShotCount(1);
+Check((multiplayerFlags & multi.flagPlayerChange) != 0 && (multiplayerFlags & multi.flagRoundChange) == 0, "Changing players does not signal round completion");
+for (int i = 0; i < 3; i++) multiplayerFlags = multi.UpdateShotCount(1);
 Check(multi.curPlayer == 0 && multi.curRound == 1, "Round advances after both players");
+Check((multiplayerFlags & multi.flagRoundChange) != 0, "Last player completing turn signals round completion");
 var secret = new GameSession(); secret.curRound = 8; secret.curMadeShotsThisRound = 2;
 foreach (var key in new[] {1,2,3,1,2,0}) secret.StoreSecretRoundUnlockCode(key);
 Check(secret.secretRoundUnlocked, "Secret sequence unlocks at required state");
