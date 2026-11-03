@@ -46,6 +46,14 @@ canvas.addEventListener('pointerup',e=>{if(e.pointerId!==activePointer)return;ap
 canvas.addEventListener('pointercancel',e=>{if(e.pointerId!==activePointer)return;api?.Pointer(3,0,0,e.timeStamp/1000,'');activePointer=null;down=null;});
 canvas.addEventListener('webglcontextlost',event=>{event.preventDefault();running=false;api?.Visibility(true);status.hidden=false;status.textContent='Graphics were interrupted. Reload to resume your saved game.';});
 document.addEventListener('visibilitychange',()=>{api?.Pointer(3,0,0,0,'');activePointer=null;api?.Visibility(document.hidden);lastTime=0;});window.addEventListener('resize',()=>{if(renderer)resize();});
+
+const fullscreenButton=document.querySelector('#fullscreen');
+function syncFullscreenButton(){const active=!!document.fullscreenElement;fullscreenButton.textContent=active?'⛶':'⛶';fullscreenButton.setAttribute('aria-label',active?'Exit fullscreen':'Enter fullscreen');fullscreenButton.title=active?'Exit fullscreen':'Enter fullscreen';}
+fullscreenButton.addEventListener('click',async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else if(document.documentElement.requestFullscreen)await document.documentElement.requestFullscreen();else if(document.documentElement.webkitRequestFullscreen)document.documentElement.webkitRequestFullscreen();}catch(e){console.warn('Fullscreen could not be changed:',e);}});
+document.addEventListener('fullscreenchange',syncFullscreenButton);
+document.addEventListener('webkitfullscreenchange',syncFullscreenButton);
+if(!document.documentElement.requestFullscreen&&!document.documentElement.webkitRequestFullscreen)fullscreenButton.hidden=true;
+
 window.addEventListener('devicemotion',e=>{const a=e.accelerationIncludingGravity;if(a&&api)api.Motion(e.timeStamp/1000,(a.x||0)/9.80665,(a.y||0)/9.80665,(a.z||0)/9.80665);});
 async function boot(){if(!gl)throw new Error('This browser does not provide WebGL. Enable hardware acceleration or use a supported browser.');renderer=new THREE.WebGLRenderer({canvas,context:gl});renderer.autoClear=false;renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.useLegacyLights=true;resize();const [{setModuleImports,getAssemblyExports,getConfig},bundle]=await Promise.all([dotnet.create(),fetch('./assets.json').then(r=>{if(!r.ok)throw new Error('Asset download failed');return r.json();})]);assets=bundle;setModuleImports('host',host);api=(await getAssemblyExports(getConfig().mainAssemblyName)).IQuarters.Web.WebBridge;
  for(const [path,data] of Object.entries(assets))api.InstallAsset(path,JSON.stringify(data));const textureNames=assets['_textures'];for(const name of textureNames)api.InstallAsset('textures/'+name,'');
