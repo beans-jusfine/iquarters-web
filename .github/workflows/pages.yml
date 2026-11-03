@@ -1,0 +1,38 @@
+name: Publish web game
+on:
+  push:
+    branches: [main]
+    paths: ['Recovered/**', 'Recovery/converted/**', 'Recovery/tools/package_web.py', '.github/workflows/pages.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.401'
+      - run: dotnet workload install wasm-tools
+      - run: dotnet run --project Recovered/Verification -c Release
+      - run: dotnet publish Recovered/Web -c Release -p:UseSharedCompilation=false
+      - run: python3 Recovery/tools/package_web.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/web
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment
