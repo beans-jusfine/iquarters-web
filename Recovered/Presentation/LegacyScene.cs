@@ -16,6 +16,7 @@ public sealed partial class LegacyScene
     readonly Dictionary<string,SCNMaterial> materials=new();
     readonly Dictionary<string,JsonElement> clips=new();
     readonly Dictionary<int,Dictionary<string,string>> bindings=new();
+    readonly Dictionary<(int Owner,string Path),SCNNode?> curveTargets=new();
     readonly List<Playback> playing=new();
     SCNNode[] roots=[];
     public HashSet<SCNNode> AnimatedNodes {get;}=new();
@@ -78,7 +79,7 @@ public sealed partial class LegacyScene
             int parent=t.GetProperty("parent")[1].GetInt32();if(parent==0)World.AddChildNode(node);else Nodes[owners[parent]].AddChildNode(node);
         }
         // Unity Renderer.enabled hides that mesh only. Node opacity would also hide children.
-        foreach(var (id,node) in Nodes)if(node.ChildNodes.Length>0&&Records[id].TryGetProperty("rendererEnabled",out var visible)&&!visible.GetBoolean()){
+        foreach(var (id,node) in Nodes)if(node.Children.Count>0&&Records[id].TryGetProperty("rendererEnabled",out var visible)&&!visible.GetBoolean()){
             node.Geometry=null;node.Opacity=1;
         }
         roots=World.ChildNodes;
@@ -90,13 +91,15 @@ public sealed partial class LegacyScene
     public SCNNode? Find(string name)=>Nodes.Values.FirstOrDefault(n=>n.Name==name);
     SCNNode? ResolveCurveNode(int owner,string path)
     {
+        if(curveTargets.TryGetValue((owner,path),out var cached))return cached;
         SCNNode? node=Nodes[owner];bool first=true;
         foreach(var part in path.Split('/',StringSplitOptions.RemoveEmptyEntries)){
             if(first&&part==node?.Name){first=false;continue;}
             first=false;
-            node=node?.ChildNodes.FirstOrDefault(n=>n.Name==part);
+            node=node?.Children.FirstOrDefault(n=>n.Name==part);
             if(node==null)break;
         }
+        curveTargets[(owner,path)]=node;
         return node;
     }
     public int Id(string name)=>Nodes.First(p=>p.Value.Name==name).Key;
@@ -158,7 +161,7 @@ public sealed partial class LegacyScene
         var keys=curve.GetProperty("keys");int count=keys.GetArrayLength();if(count==0)return [];
         if(time<=keys[0].GetProperty("time").GetSingle())return Field(keys[0],"value");
         if(time>=keys[count-1].GetProperty("time").GetSingle())return Field(keys[count-1],"value");
-        int index=1;while(keys[index].GetProperty("time").GetSingle()<time)index++;
+        int low=1,high=count-1;while(low<high){int mid=low+(high-low)/2;if(keys[mid].GetProperty("time").GetSingle()<time)low=mid+1;else high=mid;}int index=low;
         var a=keys[index-1];var b=keys[index];float span=b.GetProperty("time").GetSingle()-a.GetProperty("time").GetSingle();float t=(time-a.GetProperty("time").GetSingle())/span;
         var av=Field(a,"value");var bv=Field(b,"value");var slopeA=Field(a,"outSlope");var slopeB=Field(b,"inSlope");
         for(int i=0;i<av.Length;i++)av[i]=!float.IsFinite(slopeA[i])||!float.IsFinite(slopeB[i])?av[i]:(2*t*t*t-3*t*t+1)*av[i]+(t*t*t-2*t*t+t)*span*slopeA[i]+(-2*t*t*t+3*t*t)*bv[i]+(t*t*t-t*t)*span*slopeB[i];

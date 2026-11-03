@@ -9,7 +9,7 @@ public sealed class SCNNode {
  public static readonly Dictionary<int,SCNNode> All=[];static int serial;public readonly int WebId=++serial;
  public int SourceId;public string? Name;public bool Hidden;public float Opacity=1;public nuint CategoryBitMask;public SCNGeometry? Geometry;public SCNCamera? Camera;
  public SCNVector3 Position,Scale=new(1,1,1);public SCNQuaternion Orientation=new(0,0,0,1);
- public SCNNode? ParentNode;readonly List<SCNNode> children=[];public SCNNode[] ChildNodes=>children.ToArray();
+ public SCNNode? ParentNode;readonly List<SCNNode> children=[];public IReadOnlyList<SCNNode> Children=>children;public SCNNode[] ChildNodes=>children.ToArray();
  public SCNNode(){All[WebId]=this;}
  public SCNVector3 EulerAngles {get {Quaternion q=Orientation;return new(MathF.Asin(Math.Clamp(2*(q.W*q.X-q.Y*q.Z),-1,1)),MathF.Atan2(2*(q.W*q.Y+q.X*q.Z),1-2*(q.X*q.X+q.Y*q.Y)),MathF.Atan2(2*(q.W*q.Z+q.X*q.Y),1-2*(q.X*q.X+q.Z*q.Z)));}set=>Orientation=Quaternion.CreateFromYawPitchRoll(value.Y,value.X,value.Z);}
  public Matrix4x4 Matrix=>Matrix4x4.CreateScale(Scale)*Matrix4x4.CreateFromQuaternion(Orientation)*Matrix4x4.CreateTranslation(Position);
