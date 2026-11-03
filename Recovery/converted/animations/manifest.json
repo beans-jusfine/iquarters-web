@@ -1,0 +1,1058 @@
+[
+  {
+    "key": "sharedassets0.assets-99",
+    "name": "nponeplayer",
+    "duration": 0.16666698455810547,
+    "curves": 84
+  },
+  {
+    "key": "sharedassets0.assets-100",
+    "name": "hiscoreclick",
+    "duration": 0.13333332538604736,
+    "curves": 84
+  },
+  {
+    "key": "sharedassets0.assets-101",
+    "name": "playnowout",
+    "duration": 0.33333343267440796,
+    "curves": 84
+  },
+  {
+    "key": "sharedassets0.assets-102",
+    "name": "hsin",
+    "duration": 0.8000001907348633,
+    "curves": 84
+  },
+  {
+    "key": "sharedassets0.assets-103",
+    "name": "hsout",
+    "duration": 0.6666669845581055,
+    "curves": 84
+  },
+  {
+    "key": "sharedassets0.assets-104",
+    "name": "hsbackclick",
+    "duration": 0.13333368301391602,
+    "curves": 84
+  },
+  {
+    "key": "sharedassets0.assets-105",
+    "name": "npbackclick",
+    "duration": 0.16666698455810547,
+    "curves": 84
+  },
+  {
+    "key": "sharedassets0.assets-106",
+    "name": "hsclearclick",
+    "duration": 0.16666698455810547,
+    "curves": 84
+  },
+  {
+    "key": "sharedassets0.assets-107",
+    "name": "npin",
+    "duration": 0.46666669845581055,
+    "curves": 84
+  },
+  {
+    "key": "sharedassets0.assets-108",
+    "name": "gtclassicclick",
+    "duration": 0.16666674613952637,
+    "curves": 84
+  },
+  {
+    "key": "sharedassets0.assets-109",
+    "name": "Click",
+    "duration": 0.13333334028720856,
+    "curves": 3
+  },
+  {
+    "key": "sharedassets0.assets-110",
+    "name": "npout",
+    "duration": 0.5000004768371582,
+    "curves": 84
+  },
+  {
+    "key": "sharedassets0.assets-111",
+    "name": "nptwoplayer",
+    "duration": 0.16666698455810547,
+    "curves": 84
+  },
+  {
+    "key": "sharedassets0.assets-112",
+    "name": "Take 001",
+    "duration": 2.1666667461395264,
+    "curves": 6
+  },
+  {
+    "key": "sharedassets0.assets-113",
+    "name": "NoClick",
+    "duration": 0.13333338499069214,
+    "curves": 6
+  },
+  {
+    "key": "sharedassets0.assets-114",
+    "name": "YesClick",
+    "duration": 0.13333334028720856,
+    "curves": 6
+  },
+  {
+    "key": "sharedassets0.assets-115",
+    "name": "Take 001",
+    "duration": 2.3333334922790527,
+    "curves": 36
+  },
+  {
+    "key": "sharedassets0.assets-116",
+    "name": "Take 001",
+    "duration": 2.766666889190674,
+    "curves": 6
+  },
+  {
+    "key": "sharedassets0.assets-117",
+    "name": "YesClick",
+    "duration": 0.13333334028720856,
+    "curves": 6
+  },
+  {
+    "key": "sharedassets0.assets-118",
+    "name": "NoClick",
+    "duration": 0.13333335518836975,
+    "curves": 6
+  },
+  {
+    "key": "sharedassets0.assets-119",
+    "name": "gtbackclick",
+    "duration": 0.16666674613952637,
+    "curves": 84
+  },
+  {
+    "key": "sharedassets0.assets-120",
+    "name": "intro",
+    "duration": 0.40000003576278687,
+    "curves": 84
+  },
+  {
+    "key": "sharedassets0.assets-121",
+    "name": "Take 001",
+    "duration": 2.1666667461395264,
+    "curves": 6
+  },
+  {
+    "key": "sharedassets0.assets-122",
+    "name": "gtout",
+    "duration": 0.23333358764648438,
+    "curves": 84
+  },
+  {
+    "key": "sharedassets0.assets-123",
+    "name": "gtpracticeout",
+    "duration": 0.3666667938232422,
+    "curves": 84
+  },
+  {
+    "key": "sharedassets0.assets-124",
+    "name": "gtin",
+    "duration": 0.6000001430511475,
+    "curves": 84
+  },
+  {
+    "key": "sharedassets0.assets-125",
+    "name": "gtpracticeclick",
+    "duration": 0.16666698455810547,
+    "curves": 84
+  },
+  {
+    "key": "sharedassets0.assets-126",
+    "name": "npfourplayer",
+    "duration": 0.16666698455810547,
+    "curves": 84
+  },
+  {
+    "key": "sharedassets0.assets-127",
+    "name": "playnowclick",
+    "duration": 0.13333332538604736,
+    "curves": 84
+  },
+  {
+    "key": "sharedassets0.assets-128",
+    "name": "Take 001",
+    "duration": 2.133333444595337,
+    "curves": 30
+  },
+  {
+    "key": "sharedassets0.assets-129",
+    "name": "npthreeplayer",
+    "duration": 0.16666698455810547,
+    "curves": 84
+  },
+  {
+    "key": "sharedassets1.assets-434",
+    "name": "CoinsLeft38",
+    "duration": 3.2333335876464844,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-435",
+    "name": "player1",
+    "duration": 0.9666666388511658,
+    "curves": 12
+  },
+  {
+    "key": "sharedassets1.assets-436",
+    "name": "player2",
+    "duration": 1.0000001192092896,
+    "curves": 12
+  },
+  {
+    "key": "sharedassets1.assets-437",
+    "name": "player3",
+    "duration": 1.0,
+    "curves": 12
+  },
+  {
+    "key": "sharedassets1.assets-438",
+    "name": "player4",
+    "duration": 1.0000004768371582,
+    "curves": 12
+  },
+  {
+    "key": "sharedassets1.assets-439",
+    "name": "player1in",
+    "duration": 0.5,
+    "curves": 12
+  },
+  {
+    "key": "sharedassets1.assets-440",
+    "name": "player1out",
+    "duration": 0.2666666507720947,
+    "curves": 12
+  },
+  {
+    "key": "sharedassets1.assets-441",
+    "name": "player2in",
+    "duration": 0.533333420753479,
+    "curves": 12
+  },
+  {
+    "key": "sharedassets1.assets-442",
+    "name": "player2out",
+    "duration": 0.26666688919067383,
+    "curves": 12
+  },
+  {
+    "key": "sharedassets1.assets-443",
+    "name": "player3in",
+    "duration": 0.5333335399627686,
+    "curves": 12
+  },
+  {
+    "key": "sharedassets1.assets-444",
+    "name": "player3out",
+    "duration": 0.2666666507720947,
+    "curves": 12
+  },
+  {
+    "key": "sharedassets1.assets-445",
+    "name": "player4in",
+    "duration": 0.5333337783813477,
+    "curves": 12
+  },
+  {
+    "key": "sharedassets1.assets-446",
+    "name": "player4out",
+    "duration": 0.26666736602783203,
+    "curves": 12
+  },
+  {
+    "key": "sharedassets1.assets-447",
+    "name": "onscreen",
+    "duration": 0.30000001192092896,
+    "curves": 15
+  },
+  {
+    "key": "sharedassets1.assets-448",
+    "name": "offscreen",
+    "duration": 0.19999998807907104,
+    "curves": 15
+  },
+  {
+    "key": "sharedassets1.assets-449",
+    "name": "Take 001",
+    "duration": 1.0,
+    "curves": 1
+  },
+  {
+    "key": "sharedassets1.assets-450",
+    "name": "CoinsLeft39",
+    "duration": 3.3000001907348633,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-451",
+    "name": "done_click_2",
+    "duration": 0.1333332061767578,
+    "curves": 120
+  },
+  {
+    "key": "sharedassets1.assets-452",
+    "name": "Take 001",
+    "duration": 2.366666793823242,
+    "curves": 9
+  },
+  {
+    "key": "sharedassets1.assets-453",
+    "name": "shake",
+    "duration": 1.2333335876464844,
+    "curves": 6
+  },
+  {
+    "key": "sharedassets1.assets-454",
+    "name": "lockin",
+    "duration": 0.46666666865348816,
+    "curves": 3
+  },
+  {
+    "key": "sharedassets1.assets-455",
+    "name": "done_click_1",
+    "duration": 0.13333344459533691,
+    "curves": 120
+  },
+  {
+    "key": "sharedassets1.assets-456",
+    "name": "Take 001",
+    "duration": 2.0333335399627686,
+    "curves": 9
+  },
+  {
+    "key": "sharedassets1.assets-457",
+    "name": "ui_in_4",
+    "duration": 0.766667366027832,
+    "curves": 120
+  },
+  {
+    "key": "sharedassets1.assets-458",
+    "name": "Take 001",
+    "duration": 2.0333335399627686,
+    "curves": 24
+  },
+  {
+    "key": "sharedassets1.assets-459",
+    "name": "CoinsLeft34",
+    "duration": 2.9666669368743896,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-460",
+    "name": "CoinsLeft35",
+    "duration": 3.0333335399627686,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-461",
+    "name": "CoinsLeft36",
+    "duration": 3.1000001430511475,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-462",
+    "name": "ui_in_3",
+    "duration": 0.766667366027832,
+    "curves": 120
+  },
+  {
+    "key": "sharedassets1.assets-463",
+    "name": "CoinsLeft37",
+    "duration": 3.1666669845581055,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-464",
+    "name": "ui_in_2",
+    "duration": 0.7666671276092529,
+    "curves": 120
+  },
+  {
+    "key": "sharedassets1.assets-465",
+    "name": "SlideIn",
+    "duration": 0.40000003576278687,
+    "curves": 3
+  },
+  {
+    "key": "sharedassets1.assets-466",
+    "name": "Take 001",
+    "duration": 1.3333333730697632,
+    "curves": 5
+  },
+  {
+    "key": "sharedassets1.assets-467",
+    "name": "ui_in_1",
+    "duration": 0.7666667103767395,
+    "curves": 120
+  },
+  {
+    "key": "sharedassets1.assets-468",
+    "name": "outofshots",
+    "duration": 2.333333730697632,
+    "curves": 57
+  },
+  {
+    "key": "sharedassets1.assets-469",
+    "name": "gamecomplete",
+    "duration": 2.3000001907348633,
+    "curves": 57
+  },
+  {
+    "key": "sharedassets1.assets-470",
+    "name": "lockin",
+    "duration": 0.46666693687438965,
+    "curves": 21
+  },
+  {
+    "key": "sharedassets1.assets-471",
+    "name": "Take 001",
+    "duration": 1.1666667461395264,
+    "curves": 12
+  },
+  {
+    "key": "sharedassets1.assets-472",
+    "name": "Take 001",
+    "duration": 2.500000238418579,
+    "curves": 18
+  },
+  {
+    "key": "sharedassets1.assets-473",
+    "name": "Take 001",
+    "duration": 0.40000003576278687,
+    "curves": 3
+  },
+  {
+    "key": "sharedassets1.assets-474",
+    "name": "SlideOut",
+    "duration": 0.43333351612091064,
+    "curves": 6
+  },
+  {
+    "key": "sharedassets1.assets-475",
+    "name": "lockout",
+    "duration": 0.16666674613952637,
+    "curves": 21
+  },
+  {
+    "key": "sharedassets1.assets-476",
+    "name": "hofclick",
+    "duration": 0.13333344459533691,
+    "curves": 30
+  },
+  {
+    "key": "sharedassets1.assets-477",
+    "name": "ClickSave",
+    "duration": 0.13333332538604736,
+    "curves": 6
+  },
+  {
+    "key": "sharedassets1.assets-478",
+    "name": "ClickDone",
+    "duration": 0.13333344459533691,
+    "curves": 6
+  },
+  {
+    "key": "sharedassets1.assets-479",
+    "name": "SlideIn",
+    "duration": 0.5,
+    "curves": 6
+  },
+  {
+    "key": "sharedassets1.assets-480",
+    "name": "goclick",
+    "duration": 0.13333344459533691,
+    "curves": 21
+  },
+  {
+    "key": "sharedassets1.assets-481",
+    "name": "replayclick",
+    "duration": 0.16666674613952637,
+    "curves": 30
+  },
+  {
+    "key": "sharedassets1.assets-482",
+    "name": "Take 001",
+    "duration": 0.7000000476837158,
+    "curves": 3
+  },
+  {
+    "key": "sharedassets1.assets-483",
+    "name": "Take 001",
+    "duration": 0.6666666865348816,
+    "curves": 3
+  },
+  {
+    "key": "sharedassets1.assets-484",
+    "name": "soundclick",
+    "duration": 0.20000004768371582,
+    "curves": 30
+  },
+  {
+    "key": "sharedassets1.assets-485",
+    "name": "SlideOut",
+    "duration": 0.36666691303253174,
+    "curves": 21
+  },
+  {
+    "key": "sharedassets1.assets-486",
+    "name": "SlideIn",
+    "duration": 0.40000003576278687,
+    "curves": 21
+  },
+  {
+    "key": "sharedassets1.assets-487",
+    "name": "quitclick",
+    "duration": 0.13333344459533691,
+    "curves": 21
+  },
+  {
+    "key": "sharedassets1.assets-488",
+    "name": "Take 001",
+    "duration": 0.3333333432674408,
+    "curves": 3
+  },
+  {
+    "key": "sharedassets1.assets-489",
+    "name": "click",
+    "duration": 0.3333333730697632,
+    "curves": 15
+  },
+  {
+    "key": "sharedassets1.assets-490",
+    "name": "reminder",
+    "duration": 1.1666669845581055,
+    "curves": 15
+  },
+  {
+    "key": "sharedassets1.assets-491",
+    "name": "scalereminder",
+    "duration": 2.000000238418579,
+    "curves": 15
+  },
+  {
+    "key": "sharedassets1.assets-492",
+    "name": "hold",
+    "duration": 0.03333333507180214,
+    "curves": 15
+  },
+  {
+    "key": "sharedassets1.assets-493",
+    "name": "Take 001",
+    "duration": 2.0,
+    "curves": 3
+  },
+  {
+    "key": "sharedassets1.assets-494",
+    "name": "animin",
+    "duration": 0.6333333849906921,
+    "curves": 30
+  },
+  {
+    "key": "sharedassets1.assets-495",
+    "name": "doneclick",
+    "duration": 0.16666698455810547,
+    "curves": 30
+  },
+  {
+    "key": "sharedassets1.assets-496",
+    "name": "animout",
+    "duration": 0.5333335399627686,
+    "curves": 30
+  },
+  {
+    "key": "sharedassets1.assets-497",
+    "name": "quitclick",
+    "duration": 0.13333344459533691,
+    "curves": 30
+  },
+  {
+    "key": "sharedassets1.assets-498",
+    "name": "Take 001",
+    "duration": 4.033333778381348,
+    "curves": 7
+  },
+  {
+    "key": "sharedassets1.assets-499",
+    "name": "Take 001",
+    "duration": 4.0,
+    "curves": 1
+  },
+  {
+    "key": "sharedassets1.assets-500",
+    "name": "CoinsLeft40",
+    "duration": 3.366666793823242,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-501",
+    "name": "done_click_4",
+    "duration": 0.13333415985107422,
+    "curves": 120
+  },
+  {
+    "key": "sharedassets1.assets-502",
+    "name": "Take 001",
+    "duration": 2.0,
+    "curves": 2
+  },
+  {
+    "key": "sharedassets1.assets-503",
+    "name": "flickclick",
+    "duration": 0.13333332538604736,
+    "curves": 30
+  },
+  {
+    "key": "sharedassets1.assets-504",
+    "name": "InfoClick",
+    "duration": 0.13333334028720856,
+    "curves": 3
+  },
+  {
+    "key": "sharedassets1.assets-505",
+    "name": "shakeclick",
+    "duration": 0.13333344459533691,
+    "curves": 30
+  },
+  {
+    "key": "sharedassets1.assets-506",
+    "name": "Take 001",
+    "duration": 2.0,
+    "curves": 4
+  },
+  {
+    "key": "sharedassets1.assets-507",
+    "name": "CoinsLeft17",
+    "duration": 1.8333334922790527,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-508",
+    "name": "CoinsLeft16",
+    "duration": 1.7666667699813843,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-509",
+    "name": "slidein",
+    "duration": 0.6666666865348816,
+    "curves": 21
+  },
+  {
+    "key": "sharedassets1.assets-510",
+    "name": "barsin",
+    "duration": 0.699999988079071,
+    "curves": 39
+  },
+  {
+    "key": "sharedassets1.assets-511",
+    "name": "barsout",
+    "duration": 0.4666668176651001,
+    "curves": 39
+  },
+  {
+    "key": "sharedassets1.assets-512",
+    "name": "doneclick",
+    "duration": 0.13333344459533691,
+    "curves": 39
+  },
+  {
+    "key": "sharedassets1.assets-513",
+    "name": "CoinsLeft15",
+    "duration": 1.7000001668930054,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-514",
+    "name": "Take 001",
+    "duration": 2.0,
+    "curves": 3
+  },
+  {
+    "key": "sharedassets1.assets-515",
+    "name": "CoinsLeft14",
+    "duration": 1.633333444595337,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-516",
+    "name": "CoinsLeft13",
+    "duration": 1.566666841506958,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-517",
+    "name": "CoinsLeft12",
+    "duration": 1.5000001192092896,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-518",
+    "name": "CoinsLeft11",
+    "duration": 1.433333396911621,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-519",
+    "name": "CoinsLeft32",
+    "duration": 2.8333334922790527,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-520",
+    "name": "CoinsLeft10",
+    "duration": 1.3666667938232422,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-521",
+    "name": "CoinsLeft9",
+    "duration": 1.3000000715255737,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-522",
+    "name": "ui_out_4",
+    "duration": 0.46666717529296875,
+    "curves": 120
+  },
+  {
+    "key": "sharedassets1.assets-523",
+    "name": "newroundhigh",
+    "duration": 2.0000038146972656,
+    "curves": 93
+  },
+  {
+    "key": "sharedassets1.assets-524",
+    "name": "idle",
+    "duration": 0.03333333507180214,
+    "curves": 93
+  },
+  {
+    "key": "sharedassets1.assets-525",
+    "name": "CoinsLeft30",
+    "duration": 2.700000286102295,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-526",
+    "name": "CoinsLeft29",
+    "duration": 2.633333444595337,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-527",
+    "name": "CoinsLeft28",
+    "duration": 2.566666841506958,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-528",
+    "name": "rightclick",
+    "duration": 0.13333344459533691,
+    "curves": 21
+  },
+  {
+    "key": "sharedassets1.assets-529",
+    "name": "Take 001",
+    "duration": 3.500000238418579,
+    "curves": 9
+  },
+  {
+    "key": "sharedassets1.assets-530",
+    "name": "leftclick",
+    "duration": 0.13333344459533691,
+    "curves": 21
+  },
+  {
+    "key": "sharedassets1.assets-531",
+    "name": "CoinsLeft27",
+    "duration": 2.500000238418579,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-532",
+    "name": "CoinsLeft26",
+    "duration": 2.433333396911621,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-533",
+    "name": "CoinsLeft25",
+    "duration": 2.366666793823242,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-534",
+    "name": "CoinsLeft31",
+    "duration": 2.766666889190674,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-535",
+    "name": "done_click_3",
+    "duration": 0.13333368301391602,
+    "curves": 120
+  },
+  {
+    "key": "sharedassets1.assets-536",
+    "name": "CoinsLeft24",
+    "duration": 2.3000001907348633,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-537",
+    "name": "CoinsLeft23",
+    "duration": 2.2333335876464844,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-538",
+    "name": "CoinsLeft22",
+    "duration": 2.1666667461395264,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-539",
+    "name": "slideout",
+    "duration": 0.3000001907348633,
+    "curves": 21
+  },
+  {
+    "key": "sharedassets1.assets-540",
+    "name": "CoinsLeft21",
+    "duration": 2.1000001430511475,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-541",
+    "name": "CoinsLeft20",
+    "duration": 2.0333335399627686,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-542",
+    "name": "CoinsLeft19",
+    "duration": 1.9666666984558105,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-543",
+    "name": "CoinsLeft18",
+    "duration": 1.9000000953674316,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-544",
+    "name": "CoinsLeft8",
+    "duration": 1.2333334684371948,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-545",
+    "name": "CoinsLeft7",
+    "duration": 1.1666667461395264,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-546",
+    "name": "ui_out_2",
+    "duration": 0.46666717529296875,
+    "curves": 120
+  },
+  {
+    "key": "sharedassets1.assets-547",
+    "name": "CoinsLeft6",
+    "duration": 1.1000001430511475,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-548",
+    "name": "ui_out_1",
+    "duration": 0.4666668176651001,
+    "curves": 120
+  },
+  {
+    "key": "sharedassets1.assets-549",
+    "name": "CoinsLeft5",
+    "duration": 1.033333420753479,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-550",
+    "name": "CoinsLeft4",
+    "duration": 0.9666666388511658,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-551",
+    "name": "CoinsLeft3",
+    "duration": 0.9000000357627869,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-552",
+    "name": "CoinsLeft2",
+    "duration": 0.8333333730697632,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-553",
+    "name": "CoinsLeft1",
+    "duration": 0.7666667103767395,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-554",
+    "name": "Take 001",
+    "duration": 0.2666666805744171,
+    "curves": 3
+  },
+  {
+    "key": "sharedassets1.assets-555",
+    "name": "Take 001",
+    "duration": 4.0,
+    "curves": 1
+  },
+  {
+    "key": "sharedassets1.assets-556",
+    "name": "Take 001",
+    "duration": 2.3333334922790527,
+    "curves": 10
+  },
+  {
+    "key": "sharedassets1.assets-557",
+    "name": "Take 001",
+    "duration": 0.3333333432674408,
+    "curves": 3
+  },
+  {
+    "key": "sharedassets1.assets-558",
+    "name": "CoinsLeft33",
+    "duration": 2.9000000953674316,
+    "curves": 132
+  },
+  {
+    "key": "sharedassets1.assets-559",
+    "name": "lockout",
+    "duration": 0.16666674613952637,
+    "curves": 3
+  },
+  {
+    "key": "sharedassets1.assets-560",
+    "name": "flick",
+    "duration": 1.2333333492279053,
+    "curves": 6
+  },
+  {
+    "key": "sharedassets1.assets-561",
+    "name": "rnd15",
+    "duration": 2.666667938232422,
+    "curves": 93
+  },
+  {
+    "key": "sharedassets1.assets-562",
+    "name": "rnd14",
+    "duration": 2.6666717529296875,
+    "curves": 93
+  },
+  {
+    "key": "sharedassets1.assets-563",
+    "name": "rnd13",
+    "duration": 2.666667938232422,
+    "curves": 93
+  },
+  {
+    "key": "sharedassets1.assets-564",
+    "name": "rnd12",
+    "duration": 2.666667938232422,
+    "curves": 93
+  },
+  {
+    "key": "sharedassets1.assets-565",
+    "name": "rnd11",
+    "duration": 2.666667938232422,
+    "curves": 93
+  },
+  {
+    "key": "sharedassets1.assets-566",
+    "name": "rnd10",
+    "duration": 2.666667938232422,
+    "curves": 93
+  },
+  {
+    "key": "sharedassets1.assets-567",
+    "name": "rnd09",
+    "duration": 2.666667938232422,
+    "curves": 93
+  },
+  {
+    "key": "sharedassets1.assets-568",
+    "name": "rnd08",
+    "duration": 2.666667938232422,
+    "curves": 93
+  },
+  {
+    "key": "sharedassets1.assets-569",
+    "name": "rnd07",
+    "duration": 2.666667938232422,
+    "curves": 93
+  },
+  {
+    "key": "sharedassets1.assets-570",
+    "name": "rnd06",
+    "duration": 2.666667938232422,
+    "curves": 93
+  },
+  {
+    "key": "sharedassets1.assets-571",
+    "name": "rnd05",
+    "duration": 2.6666669845581055,
+    "curves": 93
+  },
+  {
+    "key": "sharedassets1.assets-572",
+    "name": "rnd04",
+    "duration": 2.6666669845581055,
+    "curves": 93
+  },
+  {
+    "key": "sharedassets1.assets-573",
+    "name": "rnd03",
+    "duration": 2.6666674613952637,
+    "curves": 93
+  },
+  {
+    "key": "sharedassets1.assets-574",
+    "name": "rnd02",
+    "duration": 2.6666672229766846,
+    "curves": 93
+  },
+  {
+    "key": "sharedassets1.assets-575",
+    "name": "rnd01",
+    "duration": 2.000000238418579,
+    "curves": 93
+  },
+  {
+    "key": "sharedassets1.assets-576",
+    "name": "ui_out_3",
+    "duration": 0.46666717529296875,
+    "curves": 120
+  },
+  {
+    "key": "sharedassets1.assets-577",
+    "name": "Take 001",
+    "duration": 1.8333333730697632,
+    "curves": 3
+  },
+  {
+    "key": "sharedassets1.assets-578",
+    "name": "Take 001",
+    "duration": 1.5000001192092896,
+    "curves": 48
+  }
+]

@@ -1,0 +1,198 @@
+{
+  "audioSources": {
+    "110": {
+      "file": "sharedassets1.assets-587.wav",
+      "volume": 1.0
+    },
+    "375": {
+      "file": "sharedassets1.assets-603.wav",
+      "volume": 1.0
+    },
+    "397": {
+      "file": "sharedassets1.assets-603.wav",
+      "volume": 1.0
+    },
+    "418": {
+      "file": "sharedassets1.assets-603.wav",
+      "volume": 1.0
+    },
+    "441": {
+      "file": "sharedassets1.assets-603.wav",
+      "volume": 1.0
+    },
+    "465": {
+      "file": "sharedassets1.assets-603.wav",
+      "volume": 1.0
+    },
+    "509": {
+      "file": "sharedassets1.assets-603.wav",
+      "volume": 1.0
+    },
+    "532": {
+      "file": "sharedassets1.assets-603.wav",
+      "volume": 1.0
+    },
+    "965": {
+      "file": "sharedassets1.assets-580.wav",
+      "volume": 1.0
+    },
+    "1019": {
+      "file": "sharedassets1.assets-598.wav",
+      "volume": 1.0
+    },
+    "1338": {
+      "file": "sharedassets1.assets-601.wav",
+      "volume": 1.0
+    },
+    "1468": {
+      "file": "sharedassets1.assets-579.wav",
+      "volume": 1.0
+    },
+    "1484": {
+      "file": "sharedassets1.assets-579.wav",
+      "volume": 1.0
+    },
+    "1500": {
+      "file": "sharedassets1.assets-603.wav",
+      "volume": 1.0
+    },
+    "1557": {
+      "file": "sharedassets1.assets-603.wav",
+      "volume": 1.0
+    },
+    "1705": {
+      "file": "sharedassets1.assets-603.wav",
+      "volume": 1.0
+    },
+    "1755": {
+      "file": "sharedassets1.assets-603.wav",
+      "volume": 1.0
+    },
+    "1769": {
+      "file": "sharedassets1.assets-579.wav",
+      "volume": 1.0
+    },
+    "1776": {
+      "file": "sharedassets1.assets-579.wav",
+      "volume": 1.0
+    },
+    "1912": {
+      "file": "sharedassets1.assets-597.wav",
+      "volume": 1.0
+    },
+    "1917": {
+      "file": "sharedassets1.assets-580.wav",
+      "volume": 1.0
+    },
+    "2289": {
+      "file": "sharedassets1.assets-579.wav",
+      "volume": 1.0
+    },
+    "2465": {
+      "file": "sharedassets1.assets-579.wav",
+      "volume": 1.0
+    },
+    "2657": {
+      "file": "sharedassets1.assets-603.wav",
+      "volume": 1.0
+    },
+    "2568": {
+      "file": "sharedassets1.assets-579.wav",
+      "volume": 1.0
+    },
+    "2677": {
+      "file": "sharedassets1.assets-579.wav",
+      "volume": 1.0
+    },
+    "2695": {
+      "file": "sharedassets1.assets-603.wav",
+      "volume": 1.0
+    },
+    "2763": {
+      "file": "sharedassets1.assets-592.wav",
+      "volume": 1.0
+    }
+  },
+  "cameras": [
+    {
+      "owner": 2391,
+      "near": 0.30000001192092896,
+      "far": 1000.0,
+      "fov": 55.0,
+      "follow": {
+        "target": [
+          0,
+          1573
+        ],
+        "damping": 3.0,
+        "smooth": true
+      }
+    },
+    {
+      "owner": 481,
+      "near": 0.30000001192092896,
+      "far": 1000.0,
+      "fov": 55.0,
+      "follow": {
+        "target": [
+          0,
+          1573
+        ],
+        "damping": 3.0,
+        "smooth": true
+      }
+    },
+    {
+      "owner": 487,
+      "near": 0.30000001192092896,
+      "far": 1000.0,
+      "fov": 55.0,
+      "follow": {
+        "target": [
+          0,
+          1573
+        ],
+        "damping": 3.0,
+        "smooth": true,
+        "yOffset": 1.0,
+        "deltaV": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "owner": 1905,
+      "near": 0.30000001192092896,
+      "far": 1000.0,
+      "fov": 60.0
+    },
+    {
+      "owner": 1977,
+      "near": 0.30000001192092896,
+      "far": 1000.0,
+      "fov": 54.0
+    },
+    {
+      "owner": 2378,
+      "near": 0.30000001192092896,
+      "far": 1000.0,
+      "fov": 55.0
+    },
+    {
+      "owner": 2385,
+      "near": 0.30000001192092896,
+      "far": 1000.0,
+      "fov": 55.0,
+      "follow": {
+        "target": [
+          0,
+          1573
+        ],
+        "damping": 2.0,
+        "smooth": true
+      }
+    }
+  ]
+}

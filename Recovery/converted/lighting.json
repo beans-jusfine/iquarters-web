@@ -1,0 +1,1284 @@
+{
+  "ambient": [
+    0.20000000298023224,
+    0.20000000298023224,
+    0.20000000298023224,
+    1.0
+  ],
+  "lights": [
+    {
+      "owner": 968,
+      "enabled": true,
+      "type": 0,
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "intensity": 1.0,
+      "range": 1000.0,
+      "spotAngle": 30.0,
+      "mask": 1024
+    },
+    {
+      "owner": 1928,
+      "enabled": true,
+      "type": 2,
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "intensity": 1.0,
+      "range": 1000.0,
+      "spotAngle": 30.0,
+      "mask": 768
+    },
+    {
+      "owner": 1892,
+      "enabled": true,
+      "type": 2,
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "intensity": 1.0,
+      "range": 1000.0,
+      "spotAngle": 30.0,
+      "mask": 2048
+    },
+    {
+      "owner": 1895,
+      "enabled": true,
+      "type": 2,
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "intensity": 1.0,
+      "range": 1000.0,
+      "spotAngle": 30.0,
+      "mask": 256
+    },
+    {
+      "owner": 1902,
+      "enabled": true,
+      "type": 2,
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "intensity": 1.0,
+      "range": 1000.0,
+      "spotAngle": 30.0,
+      "mask": 4096
+    },
+    {
+      "owner": 1922,
+      "enabled": true,
+      "type": 2,
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "intensity": 1.0,
+      "range": 1000.0,
+      "spotAngle": 30.0,
+      "mask": 4096
+    },
+    {
+      "owner": 1925,
+      "enabled": true,
+      "type": 2,
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "intensity": 0.75,
+      "range": 300.0,
+      "spotAngle": 30.0,
+      "mask": 1024
+    },
+    {
+      "owner": 1959,
+      "enabled": true,
+      "type": 2,
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "intensity": 1.0,
+      "range": 50.0,
+      "spotAngle": 30.0,
+      "mask": 4294967295
+    },
+    {
+      "owner": 2014,
+      "enabled": true,
+      "type": 2,
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "intensity": 0.75,
+      "range": 300.0,
+      "spotAngle": 30.0,
+      "mask": 1024
+    },
+    {
+      "owner": 2113,
+      "enabled": true,
+      "type": 2,
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "intensity": 1.0,
+      "range": 1000.0,
+      "spotAngle": 30.0,
+      "mask": 256
+    }
+  ],
+  "materials": {
+    "sharedassets0.assets-134": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-135": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-136": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-137": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-138": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-139": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-140": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-141": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-142": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-143": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-144": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-145": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-146": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-147": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-148": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-149": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-150": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-151": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-152": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-153": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-154": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-155": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-156": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-157": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-158": {
+      "name": "iPhone Vertex Colored",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-159": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-160": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-161": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-162": {
+      "name": "Font",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-163": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-164": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-165": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-166": {
+      "name": "Font",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-167": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-168": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-169": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-170": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-171": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets0.assets-172": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-609": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-610": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-611": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-612": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-613": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-614": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-615": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-616": {
+      "name": "iPhone Vertex Colored",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-617": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-618": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-619": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-620": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-621": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-622": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-623": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-624": {
+      "name": "Particle Add",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-625": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-626": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-627": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-628": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-629": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-630": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-631": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-632": {
+      "name": "Alpha-VertexLit",
+      "doubleLighting": true,
+      "vertexLit": true
+    },
+    "sharedassets1.assets-633": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-634": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-635": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-636": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-637": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-638": {
+      "name": "Normal-VertexLit",
+      "doubleLighting": true,
+      "vertexLit": true
+    },
+    "sharedassets1.assets-639": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-640": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-641": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-642": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-643": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-644": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-645": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-646": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-647": {
+      "name": "Normal-VertexLit",
+      "doubleLighting": true,
+      "vertexLit": true
+    },
+    "sharedassets1.assets-648": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-649": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-650": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-651": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-652": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-653": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-654": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-655": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-656": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-657": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-658": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-659": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-660": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-661": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-662": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-663": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-664": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-665": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-666": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-667": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-668": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-669": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-670": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-671": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-672": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-673": {
+      "name": "Alpha-Glossy",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-674": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-675": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-676": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-677": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-678": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-679": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-680": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-681": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-682": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-683": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-684": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-685": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-686": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-687": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-688": {
+      "name": "Alpha-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-689": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-690": {
+      "name": "Normal-VertexLit",
+      "doubleLighting": true,
+      "vertexLit": true
+    },
+    "sharedassets1.assets-691": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-692": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-693": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-694": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-695": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-696": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-697": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-698": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-699": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-700": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-701": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-702": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-703": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-704": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-705": {
+      "name": "iPhone Vertex Colored",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-706": {
+      "name": "Normal-VertexLit",
+      "doubleLighting": true,
+      "vertexLit": true
+    },
+    "sharedassets1.assets-707": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-708": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-709": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-710": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-711": {
+      "name": "iPhone Detail",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-712": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-713": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-714": {
+      "name": "Font",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-715": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-716": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-717": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-718": {
+      "name": "Normal-VertexLit",
+      "doubleLighting": true,
+      "vertexLit": true
+    },
+    "sharedassets1.assets-719": {
+      "name": "Alpha-Glossy",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-720": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-721": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-722": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-723": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-724": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-725": {
+      "name": "Alpha-VertexLit",
+      "doubleLighting": true,
+      "vertexLit": true
+    },
+    "sharedassets1.assets-726": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-727": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-728": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-729": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-730": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-731": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-732": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-733": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-734": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-735": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-736": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-737": {
+      "name": "iPhone Particles Additive Culled",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-738": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-739": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-740": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-741": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-742": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "sharedassets1.assets-743": {
+      "name": "iPhone Transparent Vertex Color",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "unity default resources-10100": {
+      "name": "Font",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "unity default resources-10301": {
+      "name": "Particle Premultiply Blend",
+      "doubleLighting": false,
+      "vertexLit": false
+    },
+    "unity default resources-10302": {
+      "name": "Normal-Diffuse",
+      "doubleLighting": true,
+      "vertexLit": false
+    }
+  },
+  "roundShadows": [
+    [
+      {
+        "glass": 2433,
+        "shadow": 1609,
+        "scale": 0.2
+      },
+      {
+        "glass": 2455,
+        "shadow": 1605,
+        "scale": 0.3
+      },
+      {
+        "glass": 2212,
+        "shadow": 1601,
+        "scale": 0.15
+      }
+    ],
+    [
+      {
+        "glass": 2664,
+        "shadow": 1609,
+        "scale": 0.3
+      },
+      {
+        "glass": 2598,
+        "shadow": 1605,
+        "scale": 0.35
+      },
+      {
+        "glass": 1705,
+        "shadow": 1601,
+        "scale": 0.2
+      }
+    ],
+    [
+      {
+        "glass": 2718,
+        "shadow": 1609,
+        "scale": 0.15
+      },
+      {
+        "glass": 2823,
+        "shadow": 1605,
+        "scale": 0.16999999999999998
+      },
+      {
+        "glass": 2787,
+        "shadow": 1601,
+        "scale": 0.25
+      },
+      {
+        "glass": 2769,
+        "shadow": 1597,
+        "scale": 0.15
+      }
+    ],
+    [
+      {
+        "glass": 2255,
+        "shadow": 1609,
+        "scale": 0.25
+      },
+      {
+        "glass": 2590,
+        "shadow": 1605,
+        "scale": 0.2
+      },
+      {
+        "glass": 2572,
+        "shadow": 1601,
+        "scale": 0.16999999999999998
+      }
+    ],
+    [
+      {
+        "glass": 1640,
+        "shadow": 1609,
+        "scale": 0.15
+      },
+      {
+        "glass": 2664,
+        "shadow": 1605,
+        "scale": 0.3
+      },
+      {
+        "glass": 1755,
+        "shadow": 1601,
+        "scale": 0.15
+      }
+    ],
+    [
+      {
+        "glass": 2506,
+        "shadow": 1609,
+        "scale": 0.16999999999999998
+      },
+      {
+        "glass": 2433,
+        "shadow": 1605,
+        "scale": 0.3
+      },
+      {
+        "glass": 2657,
+        "shadow": 1601,
+        "scale": 0.2
+      }
+    ],
+    [
+      {
+        "glass": 2375,
+        "shadow": 1609,
+        "scale": 0.15
+      },
+      {
+        "glass": 2397,
+        "shadow": 1605,
+        "scale": 0.15
+      },
+      {
+        "glass": 2331,
+        "shadow": 1601,
+        "scale": 0.15
+      },
+      {
+        "glass": 2354,
+        "shadow": 1597,
+        "scale": 0.25
+      },
+      {
+        "glass": 2495,
+        "shadow": 1549,
+        "scale": 0.2
+      }
+    ],
+    [
+      {
+        "glass": 2160,
+        "shadow": 1609,
+        "scale": 0.2
+      },
+      {
+        "glass": 2182,
+        "shadow": 1605,
+        "scale": 0.2
+      }
+    ],
+    [
+      {
+        "glass": 2255,
+        "shadow": 1609,
+        "scale": 0.25
+      },
+      {
+        "glass": 2744,
+        "shadow": 1605,
+        "scale": 0.25
+      },
+      {
+        "glass": 2695,
+        "shadow": 1601,
+        "scale": 0.2
+      }
+    ],
+    [
+      {
+        "glass": 2664,
+        "shadow": 1609,
+        "scale": 0.3
+      },
+      {
+        "glass": 1745,
+        "shadow": 1605,
+        "scale": 0.25
+      },
+      {
+        "glass": 1500,
+        "shadow": 1601,
+        "scale": 0.2
+      },
+      {
+        "glass": 1755,
+        "shadow": 1597,
+        "scale": 0.15
+      }
+    ],
+    [
+      {
+        "glass": 2823,
+        "shadow": 1609,
+        "scale": 0.16999999999999998
+      }
+    ],
+    [],
+    [
+      {
+        "glass": 665,
+        "shadow": 1609,
+        "scale": 0.3
+      },
+      {
+        "glass": 418,
+        "shadow": 1605,
+        "scale": 0.16999999999999998
+      },
+      {
+        "glass": 441,
+        "shadow": 1601,
+        "scale": 0.16999999999999998
+      },
+      {
+        "glass": 375,
+        "shadow": 1597,
+        "scale": 0.16999999999999998
+      },
+      {
+        "glass": 397,
+        "shadow": 1549,
+        "scale": 0.16999999999999998
+      },
+      {
+        "glass": 509,
+        "shadow": 1545,
+        "scale": 0.16999999999999998
+      },
+      {
+        "glass": 532,
+        "shadow": 1541,
+        "scale": 0.16999999999999998
+      },
+      {
+        "glass": 465,
+        "shadow": 1537,
+        "scale": 0.16999999999999998
+      }
+    ]
+  ]
+}

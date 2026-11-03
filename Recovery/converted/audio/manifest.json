@@ -1,0 +1,272 @@
+[
+  {
+    "source": "sharedassets0.assets",
+    "pathId": 130,
+    "name": "StingerCtch",
+    "file": "sharedassets0.assets-130.wav",
+    "duration": 1.3650000095367432,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 66
+  },
+  {
+    "source": "sharedassets0.assets",
+    "pathId": 131,
+    "name": "button_click01",
+    "file": "sharedassets0.assets-131.wav",
+    "duration": 0.01666666753590107,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 66
+  },
+  {
+    "source": "sharedassets1.assets",
+    "pathId": 579,
+    "name": "cell_flip",
+    "file": "sharedassets1.assets-579.wav",
+    "duration": 0.25,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 64
+  },
+  {
+    "source": "sharedassets1.assets",
+    "pathId": 580,
+    "name": "coin_flip",
+    "file": "sharedassets1.assets-580.wav",
+    "duration": 0.7883333563804626,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 66
+  },
+  {
+    "source": "sharedassets1.assets",
+    "pathId": 581,
+    "name": "coin_glass_martini1",
+    "file": "sharedassets1.assets-581.wav",
+    "duration": 1.0049999952316284,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 64
+  },
+  {
+    "source": "sharedassets1.assets",
+    "pathId": 582,
+    "name": "coin_plane",
+    "file": "sharedassets1.assets-582.wav",
+    "duration": 0.49666666984558105,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 66
+  },
+  {
+    "source": "sharedassets1.assets",
+    "pathId": 583,
+    "name": "coin_glass_med3",
+    "file": "sharedassets1.assets-583.wav",
+    "duration": 0.800000011920929,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 64
+  },
+  {
+    "source": "sharedassets1.assets",
+    "pathId": 584,
+    "name": "coin_glass_tall1",
+    "file": "sharedassets1.assets-584.wav",
+    "duration": 1.4533333778381348,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 66
+  },
+  {
+    "source": "sharedassets1.assets",
+    "pathId": 585,
+    "name": "coin_table_hit1",
+    "file": "sharedassets1.assets-585.wav",
+    "duration": 0.5216666460037231,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 66
+  },
+  {
+    "source": "sharedassets1.assets",
+    "pathId": 586,
+    "name": "coin_glass_shot1",
+    "file": "sharedassets1.assets-586.wav",
+    "duration": 0.38333332538604736,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 64
+  },
+  {
+    "source": "sharedassets1.assets",
+    "pathId": 587,
+    "name": "stab_music03",
+    "file": "sharedassets1.assets-587.wav",
+    "duration": 2.309999942779541,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 66
+  },
+  {
+    "source": "sharedassets1.assets",
+    "pathId": 588,
+    "name": "coin_bobblehead",
+    "file": "sharedassets1.assets-588.wav",
+    "duration": 0.47333332896232605,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 64
+  },
+  {
+    "source": "sharedassets1.assets",
+    "pathId": 589,
+    "name": "coin_glass_tall3",
+    "file": "sharedassets1.assets-589.wav",
+    "duration": 1.5183333158493042,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 66
+  },
+  {
+    "source": "sharedassets1.assets",
+    "pathId": 590,
+    "name": "coinstack1",
+    "file": "sharedassets1.assets-590.wav",
+    "duration": 1.2549999952316284,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 64
+  },
+  {
+    "source": "sharedassets1.assets",
+    "pathId": 591,
+    "name": "coin_glass_shot2",
+    "file": "sharedassets1.assets-591.wav",
+    "duration": 0.3383333384990692,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 64
+  },
+  {
+    "source": "sharedassets1.assets",
+    "pathId": 592,
+    "name": "catapult_flip",
+    "file": "sharedassets1.assets-592.wav",
+    "duration": 0.4033333361148834,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 64
+  },
+  {
+    "source": "sharedassets1.assets",
+    "pathId": 593,
+    "name": "coin_floor1a",
+    "file": "sharedassets1.assets-593.wav",
+    "duration": 1.2666666507720947,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 66
+  },
+  {
+    "source": "sharedassets1.assets",
+    "pathId": 594,
+    "name": "coin_catapult",
+    "file": "sharedassets1.assets-594.wav",
+    "duration": 0.6000000238418579,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 66
+  },
+  {
+    "source": "sharedassets1.assets",
+    "pathId": 595,
+    "name": "coin_table_hit3",
+    "file": "sharedassets1.assets-595.wav",
+    "duration": 0.4483333230018616,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 64
+  },
+  {
+    "source": "sharedassets1.assets",
+    "pathId": 596,
+    "name": "stab_music02",
+    "file": "sharedassets1.assets-596.wav",
+    "duration": 3.3566665649414062,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 66
+  },
+  {
+    "source": "sharedassets1.assets",
+    "pathId": 597,
+    "name": "applause6",
+    "file": "sharedassets1.assets-597.wav",
+    "duration": 5.326666831970215,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 64
+  },
+  {
+    "source": "sharedassets1.assets",
+    "pathId": 598,
+    "name": "rico01",
+    "file": "sharedassets1.assets-598.wav",
+    "duration": 0.7433333396911621,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 66
+  },
+  {
+    "source": "sharedassets1.assets",
+    "pathId": 599,
+    "name": "coin_glass_med1",
+    "file": "sharedassets1.assets-599.wav",
+    "duration": 0.92166668176651,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 66
+  },
+  {
+    "source": "sharedassets1.assets",
+    "pathId": 600,
+    "name": "coin_bottle_pop",
+    "file": "sharedassets1.assets-600.wav",
+    "duration": 0.5350000262260437,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 64
+  },
+  {
+    "source": "sharedassets1.assets",
+    "pathId": 601,
+    "name": "stab_music01",
+    "file": "sharedassets1.assets-601.wav",
+    "duration": 1.3633333444595337,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 64
+  },
+  {
+    "source": "sharedassets1.assets",
+    "pathId": 602,
+    "name": "coin_glass_martini2",
+    "file": "sharedassets1.assets-602.wav",
+    "duration": 0.8833333253860474,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 64
+  },
+  {
+    "source": "sharedassets1.assets",
+    "pathId": 603,
+    "name": "coin_lighter",
+    "file": "sharedassets1.assets-603.wav",
+    "duration": 0.6000000238418579,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 66
+  },
+  {
+    "source": "sharedassets1.assets",
+    "pathId": 604,
+    "name": "coin_glass_big1",
+    "file": "sharedassets1.assets-604.wav",
+    "duration": 0.7383333444595337,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 64
+  },
+  {
+    "source": "sharedassets1.assets",
+    "pathId": 605,
+    "name": "coin_glass_big3",
+    "file": "sharedassets1.assets-605.wav",
+    "duration": 0.5950000286102295,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 66
+  },
+  {
+    "source": "sharedassets1.assets",
+    "pathId": 606,
+    "name": "coin_book",
+    "file": "sharedassets1.assets-606.wav",
+    "duration": 0.4716666638851166,
+    "sampleRate": 11025,
+    "unparsedTailBytes": 64
+  }
+]

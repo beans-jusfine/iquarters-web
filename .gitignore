@@ -1,0 +1,17 @@
+.dotnet/
+.dotnet-home/
+**/bin/
+**/obj/
+.DS_Store
+/dist/
+*.ipa
+/Recovery/extracted/
+/Recovery/native/iquarters-armv7
+/Recovery/tools/vendor/
+**/__pycache__/
+*.pyc
+*.ips
+.env
+.env.*
+*.p12
+*.mobileprovision

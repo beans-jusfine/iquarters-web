@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.WebAssembly">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RuntimeIdentifier>browser-wasm</RuntimeIdentifier>
+    <OutputType>Exe</OutputType>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <DefineConstants>$(DefineConstants);BROWSER</DefineConstants>
+    <WasmMainJSPath>wwwroot/main.js</WasmMainJSPath>
+    <WasmEnableSIMD>false</WasmEnableSIMD>
+    <WasmEnableThreads>false</WasmEnableThreads>
+    <WasmEnableHotReload>false</WasmEnableHotReload>
+    <NoWarn>$(NoWarn);CS8981</NoWarn>
+    <WasmEnableExceptionHandling>false</WasmEnableExceptionHandling>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Core/IQuarters.Core.csproj" />
+    <Compile Include="../Verification/VerificationSuite.cs" Link="VerificationSuite.cs" />
+    <Compile Include="../Presentation/RecoveryViewController.cs;../Presentation/GameplayEffects.cs;../Presentation/GameplayParity.cs;../Presentation/GameplayPresentation.cs;../Presentation/AdaptivePresentation.cs;../Presentation/MainMenuController.cs;../Presentation/GameStorage.cs;../Presentation/LegacyScene.cs;../Presentation/LegacyAssetCache.cs" Link="Shared/%(Filename)%(Extension)" />
+    <WasmExtraFilesToDeploy Include="wwwroot/**" TargetPath="%(RecursiveDir)%(Filename)%(Extension)" />
+  </ItemGroup>
+</Project>

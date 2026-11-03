@@ -1,0 +1,2 @@
+# Keep upstream vendored files byte-for-byte; their formatting is not ours.
+Recovered/Web/wwwroot/vendor/** -whitespace linguist-vendored
