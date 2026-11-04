@@ -13,6 +13,13 @@
     <WasmEnableHotReload>false</WasmEnableHotReload>
     <NoWarn>$(NoWarn);CS8981</NoWarn>
     <WasmEnableExceptionHandling>false</WasmEnableExceptionHandling>
+    <!-- AOT-compile for published (Release) builds only. Debug keeps the Mono interpreter
+         so local `dotnet publish -c Debug` / hot iteration stays fast. Release publishes
+         (what GitHub Actions ships) go through the AOT compiler instead of running
+         interpreted IL in the browser. Needs the wasm-tools workload, already installed
+         by pages.yml. Expect CI build time and bin/ size to increase; measure download
+         size and first-load time alongside runtime FPS before keeping this. -->
+    <RunAOTCompilation Condition="'$(Configuration)'=='Release'">true</RunAOTCompilation>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="../Core/IQuarters.Core.csproj" />
